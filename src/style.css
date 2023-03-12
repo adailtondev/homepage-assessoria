@@ -1,0 +1,156 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.logo {
+    width: 60px;
+}
+
+.navbar-brand {
+    margin-left: 25px;
+}
+
+.nav-edit {
+    margin-right: 80px;
+}
+
+.navbar {
+    background-color: #EEEEEE;
+}
+
+
+.perfil-logo {
+    height: fit-content;
+    width: 20px;
+}
+
+.imagem-carrosel-um {
+    object-fit: cover;
+    object-position: 0 60%;
+    height: 650px;
+}
+
+.imagem-carrosel-dois {
+    object-fit: cover;
+    object-position: 0 70%;
+    height: 650px;
+}
+
+@media screen and (max-width: 768px) {
+    .imagem-carrosel-um {
+        object-fit: cover;
+        object-position: 30% 60%;
+        height: 400px;
+        width: fit-content;
+    }
+    
+    .imagem-carrosel-dois {
+        object-fit: cover;
+        object-position: 40% 70%;
+        height: 400px;
+        width: fit-content;
+    }
+
+}
+@media (max-width: 768px) {
+    .area-aluno{
+        display: flex;
+        align-items: center;
+    }
+    .area-aluno img {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .cadastro-aluno {
+        align-items: center;
+        margin-left: 60px;
+        margin-top: 2px;
+    }
+    .area-aluno{
+        margin-left: 100px;
+        display: flex;
+        align-items: center;
+    }
+}
+.metodos-treinamento {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.metodos-treinamento h2 {
+    text-align: center;
+    grid-column: 1/4;
+}
+
+@media (max-width: 768px) {
+    .metodos-treinamento{
+        grid-template-columns: 1fr;
+    }
+    .metodos-treinamento h2 {
+        grid-column: 1;
+    }
+}
+
+.sobre-nos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-nos {
+    width: 80%;
+    background-color: #6B728E;
+    margin: 120px 40px
+}
+
+.sobre-nos p {
+    margin: 60px 60px
+}
+
+
+.sobre-nos h2{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBFFB1;
+}
+
+.logo-footer {
+    width: 80px;
+    margin-top: 30px;
+}
+
+footer div img {
+    width: 30px
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.copyright img {
+    width: 14px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    footer div img {
+        width: 25px
+    }
+}
