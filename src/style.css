@@ -83,6 +83,13 @@
         display: none;
     }
 }
+
+@media (max-width: 385px) {
+    .fonte-titulo {
+        display: none;
+    }
+}
+
 .metodos-treinamento {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
