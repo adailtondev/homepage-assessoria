@@ -67,7 +67,7 @@
     margin-left: 100px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .cadastro-aluno-mobile{
         font-weight: 700;
         display: block;
@@ -84,7 +84,7 @@
     }
 }
 
-@media (max-width: 385px) {
+@media screen and (max-width: 385px) {
     .fonte-titulo {
         display: none;
     }
@@ -104,7 +104,7 @@
     grid-column: 1/4;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .metodos-treinamento{
         grid-template-columns: 1fr;
     }
@@ -129,13 +129,25 @@
     margin: 60px 60px
 }
 
-
 .sobre-nos h2{
     text-align: center;
     margin-top: 60px;
     font-weight: 700;
 }
 
+@media screen and (max-width: 768px) {
+    .sobre-nos{
+        display: flex;
+        flex-direction: column;
+    }
+    .texto-sobre{
+        overflow: hidden;
+        height: 350px;
+    }
+    .botao-vermais{
+        align-self: center;
+    }
+}
 footer {
     display: flex;
     flex-direction: column;
@@ -166,7 +178,7 @@ footer div img {
     margin-bottom: 15px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     footer div img {
         width: 25px
     }
