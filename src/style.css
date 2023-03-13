@@ -135,6 +135,10 @@
     font-weight: 700;
 }
 
+.botao-vermais {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .sobre-nos{
         display: flex;
@@ -145,6 +149,7 @@
         height: 350px;
     }
     .botao-vermais{
+        display: block;
         align-self: center;
     }
 }
